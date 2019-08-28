@@ -9,5 +9,6 @@ public class ListDemo
 {
     public static void main(String[] args)
     {
+        LinkedList<String> staff = new LinkedList<>();
     }
 }
