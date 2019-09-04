@@ -13,6 +13,40 @@ public class SpellCheck
     public static void main(String[] args)
         throws FileNotFoundException
     {
+        // read the dictionary and the novel
+        Set<String> dictionaryWords = readWords("src/words");
+        Set<String> novelWords = readWords("src/alice30.txt");
+
+        // print all words that are in the document but not the dictionary
+
+        /*
+            the enhanced for loop works with sets
+         */
+        for(String word : novelWords)
+        {
+            if(!dictionaryWords.contains(word))
+            {
+                System.out.println(word);
+            }
+        }
+
+        System.out.println("unique words: " + novelWords.size());
+
+        /*
+            print the number of unique words in the novel with more than three letters
+         */
+        Iterator<String> i = novelWords.iterator();
+        while(i.hasNext())
+        {
+            if(i.next().length() <= 3)
+            {
+                i.remove();
+            }
+        }
+
+        System.out.println(("unique words (>3 letters): " + novelWords.size()));
+
+
     }
 
     /**
@@ -25,6 +59,25 @@ public class SpellCheck
     public static Set<String> readWords(String filename)
         throws FileNotFoundException
     {
-        return null;
+        /*
+            The implementation of the set doesn't matter; so, store
+                the reference in a variable of type Set
+         */
+        Set<String> words = new HashSet<>();
+        Scanner in = new Scanner(new File(filename));
+
+        // use any character other than a-z or A-Z as delimiters
+        in.useDelimiter("[^a-zA-Z]+");
+
+        while(in.hasNext())
+        {
+            /*
+                adding duplicates to a set is ignored
+                    (so is removing elements that don't exist)
+             */
+            words.add(in.next().toLowerCase());
+        }
+
+        return words;
     }
 }
