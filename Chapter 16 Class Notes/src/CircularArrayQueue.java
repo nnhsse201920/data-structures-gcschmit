@@ -50,6 +50,7 @@ public class CircularArrayQueue
     */
     private void growIfNecessary()
     {
+        /*
         if(this.currentSize == this.elements.length)
         {
             Object[] newElements = new Object[2 * this.elements.length];
@@ -61,6 +62,7 @@ public class CircularArrayQueue
             this.head = 0;
             this.tail = this.currentSize;
         }
+         */
     }
 
 
