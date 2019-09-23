@@ -63,16 +63,14 @@ public class LinkedList
         this.first = newNode;
     }
 
-
-
-
     /**
         Returns an iterator for iterating through this list.
         @return an iterator for iterating through this list
     */
-
-
-
+    public ListIterator listIterator()
+    {
+        return new LinkedListIterator();
+    }
 
 
     //Class Node
