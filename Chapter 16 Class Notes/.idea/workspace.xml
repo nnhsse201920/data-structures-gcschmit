@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f8d03d-8dc4-4d46-8000-aa6340c8b77a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Chapter 16 Activities/RecursiveSize/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter 16 Activities/RecursiveSize/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter 16 Activities/Size/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter 16 Activities/Size/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Chapter 16 Activities/Size/src/SizeTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Chapter 16 Activities/Size/src/SizeTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircularArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CircularArrayQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StackDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StackDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.QueueDemo">
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -89,6 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueDemo" />
+      <module name="Ch16ClassNotes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackDemo" />
+      <module name="Ch16ClassNotes" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -104,6 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueDemo" />
+        <item itemvalue="Application.StackDemo" />
         <item itemvalue="Application.ListDemo" />
       </list>
     </recent_temporary>
